@@ -54,7 +54,7 @@ To summarize, in a Swing application, the MVC pattern looks like this:
 
 ### Model
 
-I created two model classes, Card and BingoModel.  The Card class, representing one Bingo card, holds an int array of 15 numbers, and a boolean array to indicate whether the number has been called.  Yes, I should have wrote a third class holding one number and one called boolean.  I didn't discover that I needed the called booleans until late in the development, so I went with parallel arrays.
+I created two model classes, Card and BingoModel.  The Card class, representing one Bingo card, holds an int array of 25 numbers, and a boolean array to indicate whether the number has been called.  Yes, I should have wrote a third class holding one number and one called boolean.  I didn't discover that I needed the called booleans until late in the development, so I went with parallel arrays.
 
 The BingoModel class holds an int array of the 75 numbers, a List of Integer called numbers, and a List of Card instances.  This is the logical model of the Bingo simulation.
 
